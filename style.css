@@ -96,12 +96,91 @@ body {
     background-color: rgb(224, 210, 230);
 }
 
+
+
+
+
+
+/* SECTION TWO */
 .section--2 {
     background-color: rgb(209, 126, 30);
     grid-column: 1/-1;
     grid-row: 3/4;
     height: 60vh;
 }
+
+.section--2 .container {
+    font-family: roboto;
+    height: 60vh;
+    width: 100%;
+    display: flex;
+}
+
+.section--2 .container .section2 {
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2 .down {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(102, 59, 19);
+    width: 40%;
+    height: 100%;
+}
+
+.down .top,
+.center,
+.bottom2 {
+    height: 24vh;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 0.2fr 1fr;
+}
+
+
+.down .num {
+    margin-top: 15px;
+    background-color: rgb(252, 59, 0);
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    width: 80%;
+    border-radius: 30px;
+}
+
+.down .text {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.text h4 {
+    display: flex;
+    align-items: center;
+    /* background-color: red; */
+    height: 5vh;
+}
+
+.text p {
+    margin-top: -10px;
+    color: gray;
+    height: 18vh;
+}
+
+
+
+
+
+
+
 
 .section--3 {
     background-color: rgb(211, 15, 15);
