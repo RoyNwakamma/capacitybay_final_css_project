@@ -114,6 +114,48 @@ body {
 
 
 /* SECTION TWO CSS */
+/* .section--2 .heading{
+
+    color: black;
+
+
+
+}
+.downleft{
+    width: 40%;
+
+
+}
+.downleft .text{
+    color:grey;
+    text-align: justify;
+    max-width: 250px;
+} */
+.section--2 .heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(10, 10, 61);
+    max-width: 300px;
+    font-size: 150%;
+    
+}
+
+.downleft .text{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    
+    
+     
+
+}
+.downleft{
+    text-align: justify;
+    margin-top: -5px;
+
+    margin-left: 50px;
+    max-width: 300px;
+}
+
 .section--2 {
     background-color: rgb(209, 126, 30);
     grid-column: 1/-1;
@@ -142,7 +184,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: rgb(102, 59, 19);
+    
     width: 40%;
     height: 100%;
 }
@@ -192,7 +234,25 @@ body {
 
 
 
+/* .heading{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(10, 10, 61);
+    max-width: 250px;
+}
 
+.text{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+     max-width: 250px;
+     font-size: smaller;
+
+}
+.down{
+    text-align: justify;
+    margin-top: 200px;
+    margin-left: 100px;
+} */
 
 
 
@@ -208,3 +268,4 @@ body {
 footer {
    
 }
+
