@@ -350,6 +350,74 @@ body {
 }
 /* SECTION FIVE FOOTER CSS */
 footer {
-   
+    width: 90%;
+    margin: 0% auto;
+    height: 25vh;
+    background-color: rgb(39, 36, 36);
 }
 
+
+.holder{
+    margin: 0 auto;
+    width: 80%;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plot{
+   
+    width: 30%;
+    height: 15vh;
+}
+
+.logo{
+  
+}
+
+.two, .three, .four{
+    color: white;
+    font-size: 14px;
+}
+
+.one, .four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    height: 15vh;
+}
+
+i{
+    background-color: white;
+    color: none;
+}
+
+input{
+    margin: 0 auto;
+    border-radius: 12px;
+    border-style: none;
+    width: 60%;
+    height: 4.5vh;
+}
+
+button{
+    border-radius: 18px;
+    background-color: #f3613c;
+    width: 17%;
+    border-style: none;
+    height: 4.5vh;
+    padding: 0.3em;
+    color: white
+}
+
+li{
+    line-height: 25px;
+}
+
+.legal{
+    color: rgb(223, 211, 211);
+    margin-top: 3em;
+}
