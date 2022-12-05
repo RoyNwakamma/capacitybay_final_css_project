@@ -8,7 +8,7 @@ body {
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr auto;
     grid-row-gap: 20px;
-    background-color: aliceblue;
+    background-color: white;
     margin: 0 auto;
     background-image: url('../images/bg-tablet-pattern.svg');
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ body {
 
 .header {
     padding: 20px 0;
-    background-color: #f0f5f7;
+    background-color: white;
     width: 95%;
     margin: 40px auto;
     display: flex;
@@ -38,7 +38,7 @@ body {
     font-size: 0.7rem;
     color: white;
     width: 10%;
-    box-shadow: 50px #f0f5f7;
+    box-shadow: 10px 20px white;
 }
 .header >.get:hover{
     background-color: #f3613c;
@@ -64,7 +64,7 @@ body {
 }
 .sectionone {
     padding: 20px 0;
-    background-color: #f0f5f7;
+    background-color: white;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -109,6 +109,7 @@ body {
     margin-right: 150px;
     background-color: #f3613c;
     margin-left: 30px;
+    box-shadow: 10px 20px white;
 }
 .start2:hover{
     opacity: .6;
@@ -117,23 +118,6 @@ body {
 
 
 /* SECTION TWO CSS */
-/* .section--2 .heading{
-
-    color: black;
-
-
-
-}
-.downleft{
-    width: 40%;
-
-
-}
-.downleft .text{
-    color:grey;
-    text-align: justify;
-    max-width: 250px;
-} */
 .section--2 .heading{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(10, 10, 61);
@@ -156,7 +140,7 @@ body {
 }
 
 .section--2 {
-    background-color: rgb(209, 126, 30);
+    background-color: white;
     grid-column: 1/-1;
     grid-row: 3/4;
     height: 60vh;
@@ -228,29 +212,6 @@ body {
     color: gray;
     height: 18vh;
 }
-
-
-
-/* .heading{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: rgb(10, 10, 61);
-    max-width: 250px;
-}
-
-.text{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
-     max-width: 250px;
-     font-size: smaller;
-
-}
-.down{
-    text-align: justify;
-    margin-top: 200px;
-    margin-left: 100px;
-} */
-
 
 
 /* SECTION THREE CSS */
@@ -334,8 +295,9 @@ body {
     border-radius: 10px;
     margin-top: 20px;
     border-style: none;
-    margin-left: 600px;
+    margin-left: 550px;
     text-shadow: #f3613c;
+    margin-bottom: 30px;
 }
 /* i made hover using this styling  */
 
@@ -385,7 +347,6 @@ footer {
     width: 90%;
     margin: 0% auto;
     height: 25vh;
-    background-color: rgb(39, 36, 36);
 }
 
 
@@ -406,7 +367,7 @@ footer {
 }
 
 .logo{
-  
+    color: white;
 }
 
 .two, .three, .four{
@@ -423,8 +384,7 @@ footer {
 }
 
 i{
-    background-color: white;
-    color: none;
+    color: white;
 }
 
 input{
@@ -444,9 +404,16 @@ button{
     padding: 0.3em;
     color: white
 }
+button:hover{
+    opacity: 0.7;
+}
 
 li{
     line-height: 25px;
+    list-style-type: none;
+}
+li:hover,i:hover{
+    color: #f3613c;
 }
 
 .legal{
