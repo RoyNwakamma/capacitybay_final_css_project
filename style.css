@@ -346,8 +346,40 @@ body {
 
 /* SECTION FOUR CSS */
 .section4 {
-    
+    gap: 0;
+    background-color: #f3613c;
+    grid-column: 1/-1;
+    grid-row: 5/6;
+    width: 74.3%;
+    height: 20vh;
+    display: flex;
+    margin-left: 4.2em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 6.5em;
+    margin-bottom: 1em;
 }
+.section4 h2{
+    width: 50%;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+.section4 button{
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    padding: 5px;
+    border-radius: 40px;
+    font-size: 10px;
+    color: rgba(168, 120, 101, 0.694);
+}
+.section4 button:hover{
+    cursor: pointer;
+    color: #f3613c;
+}
+
 /* SECTION FIVE FOOTER CSS */
 footer {
     width: 90%;
