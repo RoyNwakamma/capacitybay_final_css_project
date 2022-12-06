@@ -368,31 +368,41 @@ footer {
 }
 
 .plot{
-   
     width: 30%;
     height: 15vh;
 }
 
-.logo{
-  
+
+.rat, .fish{
+    color: white;
+    font-size: 14px;
+    /* margin-top: 0; */
 }
 
-.two, .three, .four{
+.goat{
     color: white;
     font-size: 14px;
 }
 
-.one, .four{
+.rat ul li:hover, .fish ul li:hover{
+    color:  #f3613c;
+}
+
+.dog, .goat{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 30%;
-    height: 15vh;
+    height: 18vh;
 }
 
-i{
-    background-color: white;
-    color: none;
+.rat ul li, .fish ul li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.rat ul, .fish ul{
+    margin-top: 0;
 }
 
 input{
@@ -401,16 +411,36 @@ input{
     border-style: none;
     width: 60%;
     height: 4.5vh;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-button{
-    border-radius: 18px;
+.social{
+    padding-left: 20px;
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.social i:hover{
+    color:  #f3613c;
+}
+
+#but{
+    border-radius: 15px;
     background-color: #f3613c;
     width: 17%;
     border-style: none;
+    cursor: pointer;
     height: 4.5vh;
     padding: 0.3em;
     color: white
+
+}
+
+#but:hover{
+    background-color:  #f8c0b2;
 }
 
 li{
@@ -419,5 +449,6 @@ li{
 
 .legal{
     color: rgb(223, 211, 211);
-    margin-top: 3em;
+    margin-top: 5em;
+    
 }
