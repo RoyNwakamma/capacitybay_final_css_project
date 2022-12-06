@@ -367,7 +367,11 @@ footer {
 }
 
 .logo{
-    color: white;
+    width: 50%;
+    height: 21px;
+    background-image: url(images/manage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .two, .three, .four{
