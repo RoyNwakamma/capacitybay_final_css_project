@@ -424,3 +424,128 @@ li:hover,i:hover{
     color: rgb(223, 211, 211);
     margin-top: 3em;
 }
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .container{
+        width: 96%;
+        height: 350vh;
+    }
+    
+	/* HEADER SECTION */
+    
+	
+	
+	
+	/* SECTION ONE*/
+	
+	
+	
+	
+	
+	/* SECTION TWO*/
+	
+	 
+	
+	
+	
+	/* SECTION THREE*/
+	.section3{
+        /* background-color: antiquewhite; */
+        width: 100%;
+        height: 102vh;
+        
+    }
+    .button{
+        width: 60px;
+        height: auto;
+        display: block;
+    }
+    .body{
+        /* background-color: aqua; */
+        width: 98%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 5px;
+        padding: 0;
+    }
+    .body img{
+        margin: 0 2em;
+    }
+
+    .vin1{
+        background-color: white;
+        margin: 1em -5.5em;
+        padding: 0;
+        width: 300px;
+        height: auto;
+        font-size: 18px;
+        color: black;
+    }
+    .vin2{
+        background-color: white;
+        margin: 1em -5.5em;
+        padding: 0;
+        width: 300px;
+        height: auto;
+        font-size: 18px;
+        color: black;
+    }
+    .vin3{
+        background-color: white;
+        margin: 1em -5.5em;
+        padding: 0;
+        width: 300px;
+        height: auto;
+        font-size: 18px;
+        color: black;
+    }
+    
+    	
+	/* SECTION FOUR*/
+	
+	.section4 {
+    width: 97%;
+    height: 40vh;
+    margin-left: 6px;
+    padding: 0;
+    display: block;
+    }
+   .section4 h2{
+    /* background-color: antiquewhite; */
+    width: 88%;
+    height: auto;
+    margin-top: 0px;
+    margin-left: 15px;
+    padding: 35px 10px;
+    text-align: center;
+    font-size: 40px;
+   }
+   .section4 button {
+    margin-left: 14em;
+    width: 120px;
+    height: 40px;
+   }
+
+    /* FOOTER SECTION */
+
+
+   .two, .three{
+    /* background-color: antiquewhite; */
+    width: 100%;
+    display: inline;
+   }
+   .one, .four{
+    /* background-color: aqua; */
+    width: 100%;
+    height: 30vh;
+    display: inline-block;
+    flex-direction: row-reverse;
+   }
+}
